@@ -1,0 +1,137 @@
+[debug] [2023-05-12T16:47:16.586Z] ----------------------------------------------------------------------
+[debug] [2023-05-12T16:47:16.588Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Shamil\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-05-12T16:47:16.589Z] CLI Version:   11.27.0
+[debug] [2023-05-12T16:47:16.589Z] Platform:      win32
+[debug] [2023-05-12T16:47:16.590Z] Node Version:  v18.15.0
+[debug] [2023-05-12T16:47:16.591Z] Time:          Fri May 12 2023 22:47:16 GMT+0600 (Bangladesh Standard Time)
+[debug] [2023-05-12T16:47:16.591Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-12T16:47:16.598Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-05-12T16:47:16.838Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-12T16:47:16.839Z] > authorizing via signed-in user (raihanshamil33@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\project\Milestone-11\New folder\car-doctor-client-with-jwt
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2023-05-12T16:47:17.476Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-05-12T16:47:17.476Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-05-12T16:47:43.112Z] Using project from CLI flag: cars-doctor-6c129
+[debug] [2023-05-12T16:47:43.113Z] > refreshing access token with scopes: []
+[debug] [2023-05-12T16:47:43.114Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-12T16:47:43.115Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-12T16:47:43.341Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-05-12T16:47:43.341Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-12T16:47:43.355Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/cars-doctor-6c129 [none]
+[debug] [2023-05-12T16:47:44.139Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/cars-doctor-6c129 403
+[debug] [2023-05-12T16:47:44.139Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/cars-doctor-6c129 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-05-12T16:47:44.140Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-05-12T16:47:44.654Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Shamil\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Shamil\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project cars-doctor-6c129. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-05-12T16:48:52.082Z] ----------------------------------------------------------------------
+[debug] [2023-05-12T16:48:52.086Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Shamil\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-05-12T16:48:52.087Z] CLI Version:   11.27.0
+[debug] [2023-05-12T16:48:52.087Z] Platform:      win32
+[debug] [2023-05-12T16:48:52.087Z] Node Version:  v18.15.0
+[debug] [2023-05-12T16:48:52.089Z] Time:          Fri May 12 2023 22:48:52 GMT+0600 (Bangladesh Standard Time)
+[debug] [2023-05-12T16:48:52.089Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-12T16:48:52.223Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-12T16:48:52.224Z] > authorizing via signed-in user (raihanshamil33@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\project\Milestone-11\New folder\car-doctor-client-with-jwt
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-05-12T16:48:57.293Z] Using project from CLI flag: cars-doctor-6c129
+[debug] [2023-05-12T16:48:57.298Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/cars-doctor-6c129 [none]
+[debug] [2023-05-12T16:48:57.946Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/cars-doctor-6c129 403
+[debug] [2023-05-12T16:48:57.946Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/cars-doctor-6c129 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-05-12T16:48:57.947Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-05-12T16:48:59.159Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Shamil\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Shamil\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project cars-doctor-6c129. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-05-12T16:49:38.113Z] ----------------------------------------------------------------------
+[debug] [2023-05-12T16:49:38.117Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Shamil\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-05-12T16:49:38.118Z] CLI Version:   11.27.0
+[debug] [2023-05-12T16:49:38.119Z] Platform:      win32
+[debug] [2023-05-12T16:49:38.119Z] Node Version:  v18.15.0
+[debug] [2023-05-12T16:49:38.120Z] Time:          Fri May 12 2023 22:49:38 GMT+0600 (Bangladesh Standard Time)
+[debug] [2023-05-12T16:49:38.121Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-12T16:49:38.276Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-12T16:49:38.277Z] > authorizing via signed-in user (raihanshamil33@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\project\Milestone-11\New folder\car-doctor-client-with-jwt
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-05-12T16:49:42.431Z] Using project from CLI flag: cars-doctor-6c129
+[debug] [2023-05-12T16:49:42.436Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/cars-doctor-6c129 [none]
+[debug] [2023-05-12T16:49:43.650Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/cars-doctor-6c129 403
+[debug] [2023-05-12T16:49:43.650Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/cars-doctor-6c129 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-05-12T16:49:43.651Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-05-12T16:49:44.273Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Shamil\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Shamil\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project cars-doctor-6c129. Please make sure the project exists and your account has permission to access it.
